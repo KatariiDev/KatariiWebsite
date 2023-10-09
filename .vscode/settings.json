@@ -1,0 +1,16 @@
+{
+    "liveServer.settings.port": 5501,
+    "todohighlight.defaultStyle": {},
+    "todohighlight.include": [
+        "**/*.js",
+        "**/*.jsx",
+        "**/*.ts",
+        "**/*.tsx",
+        "**/*.html",
+        "**/*.php",
+        "**/*.css",
+        "**/*.scss"
+    ],
+    "todohighlight.keywords": [],
+    "backgroundCover.autoStatus": false
+}

@@ -411,6 +411,16 @@ button, input {
     margin-left: 91.66667%;
   }
 }
+
+@media (max-width: 595px) {
+  .profile__banner .profile__background .profile__avatar .profile__avatar-name {
+    font-size: 10px;
+    font-weight: 600;
+    color: #e3e3e3;
+    padding: 0 0 20px 20px;
+  }
+}
+
 @media (min-width: 740px) and (max-width: 1023px) {
   .wide {
     width: 644px;
@@ -703,6 +713,10 @@ body {
   font-size: 2rem;
   padding: 8px 0 4px;
 }
+.container-box__list > * .container-box__project-date {
+  display: block;
+  margin: 12px 0;
+}
 .container-box__list > * .container-box__project-desc {
   margin: 12px 0;
 }
@@ -722,3 +736,63 @@ body {
 }
 
 /*# sourceMappingURL=main.css.map */
+
+
+
+
+
+
+
+
+
+
+/*Date*/
+/*.container-date{
+    text-align: center;
+}
+.logo img{
+    width:90px
+}
+h1{
+    font-size: xxx-large;
+    font-weight: 100;
+}
+.time .item{
+    position: relative;
+    background-image:
+        repeating-linear-gradient(
+            to right bottom,
+            #7a7a7a 0px, #7a7a7a 1px,
+            transparent 1px, transparent 8px
+        )
+    ;
+}
+.time{
+    display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    column-gap: 20px;
+    grid-template-rows: 100px;
+}
+#day,
+#hour,
+#minute,
+#seconds{
+    font-size: xxx-large;
+    font-weight: bold;
+}
+.time .item::before,
+.time .item::after
+{
+    position: absolute;
+    width:6px;
+    height:20px;
+    background-color: #212121;
+    content:'';
+    left:0;
+    top:50%;
+    transform: translate(0,-50%);
+}
+.time .item::after{
+    left: unset;
+    right:0;
+}*/

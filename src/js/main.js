@@ -30,30 +30,48 @@ const myIntroductionSocial = {
 const myAboutMe = {
   textOne: 'Hello, I\'m Katarii - Newbie Developer. I\'ve only been learning coding for 3 months and this is my first product. I am skilled in some programming languages and technologies, always eager to learn and adapt to new advancements. So it still has a lot of error, so please feel free to comment.',
   textTwo: 'I use Instagram and Messenger every day to communicate and work so you can always interact with me through them. And I hope we can become good friends through this product.',
-  // textThree: 'My life is full of challenges, but fortunately for me, I found her - she always comes to me when I\'m happy and tries to encourage me every day to overcome the difficulties of life. That\'s why I love her so much.'
+  texThree: 'Viet Nam',
+  textFour: 'Copyright ® Katarii'
 }
 
+// Biến tiến độ
+var htmlpc = 60
+var csspc = 40
+var javascriptpc = 65
+var pythonpc = 70
+var reactjspc = 15
+var nodejspc = 5
+var phppc = 2
+var total = Number.parseInt((htmlpc+csspc+javascriptpc+pythonpc+reactjspc+nodejspc+phppc)/7)
+
 const mySkillPercent = {
-  HTML: 60,
-  CSS: 40,
-  JavaScript: 65,
-  Python: 70
+  Total: total,
+  HTML: htmlpc,
+  CSS: csspc,
+  JavaScript: javascriptpc,
+  Python: pythonpc,
+  ReactJs: reactjspc,
+  NodeJs: nodejspc,
+  PHP: phppc,
 }
 
 const myProfileWebsite = {
-  title: 'Katarii Profile | Website',
+  title: 'Katarii | Website',
+  date: '20/07/2023',
   desc: 'Website công bố thông tin cá nhân và các dự án mới trong tương lai,...',
   status: 'finished'
 }
 
 const myLearningWebsite = {
   title: 'DevDocs',
+  date: '20/07/2023',
   desc: 'Website tra cứu tài liệu lập trình, phát triển công nghệ trí tuệ nhân tạo và nhiều nhiều mới mẻ khác,...',
   status: 'pending'
 }
 
 const myHiringWebsite = {
   title: 'CatWs',
+  date: '20/07/2023',
   desc: 'Website thuê thiết kế Website cho sinh viên, doanh nghiệp,...',
   status: 'pending'
 }

@@ -585,18 +585,22 @@ body {
   text-transform: uppercase;
   display: block;
   border-radius: 15px;
+  font-weight: 600;
 }
 
 .status-display--pending {
   background-color: #ef4444;
+  /*color: white !important;*/
 }
 
 .status-display--processing {
   background-color: #fde047;
+  /*color: red !important;*/
 }
 
 .status-display--finished {
   background-color: #4ade80;
+  /*color: black !important;*/
 }
 
 .container-box.container-box--demo {
@@ -624,15 +628,15 @@ body {
 }
 .profile__banner .profile__background .profile__avatar {
   position: absolute;
-  bottom: -82.5px;
+  bottom: -95.5px;
   left: 45px;
   display: flex;
   align-items: flex-end;
 }
 .profile__banner .profile__background .profile__avatar .profile__avatar-img {
   background: url("/src/img/katarii-avt.jpg") center/cover no-repeat;
-  height: 165px;
-  width: 165px;
+  height: 150px;
+  width: 150px;
   border-radius: 100%;
   border: 7px solid #1c1c1c;
 }
@@ -735,6 +739,9 @@ body {
   transition: all 0.8s ease-out;
 }
 
+.fa-circle-check {
+  font-size: 25px;
+}
 /*# sourceMappingURL=main.css.map */
 
 

@@ -77,16 +77,19 @@ body {
 .status-display--pending {
   @extend %status-display;
   background-color: #ef4444;
+  color: white;
 }
 
 .status-display--processing {
   @extend %status-display;
   background-color: #fde047;
+  color: red;
 }
 
 .status-display--finished {
   @extend %status-display;
   background-color: #4ade80;
+  color: black
 }
 
 .container-box.container-box--demo {

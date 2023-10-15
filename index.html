@@ -31,7 +31,7 @@
             <div class="profile__background">
               <div class="profile__avatar">
                 <div class="profile__avatar-img"></div>
-                <span class="profile__avatar-name">Katarii (Đinh Gia Phú)</span>
+                <span class="profile__avatar-name">Katarii <i class="fa-regular fa-circle-check" title="Đã xác minh chính chủ"></i></span>
               </div>
             </div>
           </div>
@@ -106,12 +106,37 @@
                       <i class="fa-solid fa-copyright"></i>
                       <a class="container-box__content aboutMe"></a>
                     </li>
+                    <li class="container-box__item">
+                      <i class="fa-solid fa-heart"></i>
+                      <a class="container-box__content aboutMe"></a>
+                    </li>
                     <!-- <li class="container-box__item">
                       <i class="fa-solid fa-venus"></i>
                       <a class="container-box__content aboutMe"></a>
                     </li> -->
                   </ul>
                 </section>
+
+                <section class="container-box">
+                  <div class="container-box__title">
+                    <span class="container-box__title-text">My Plan</span>
+                  </div>
+                  <ul class="container-box__list">
+                    <li class="container-box__item">
+                      <i class="fa-solid fa-link"></i>
+                      <a class="container-box__content container-box__content-link planWebsite">Katarii | Website - LastUpdate: 15/10/2023</a>
+                    </li>
+                    <li class="container-box__item">
+                      <i class="fa-solid fa-link"></i>
+                      <a class="container-box__content container-box__content-link planWebsite">DevDocs - Tài liệu lập trình</a>
+                    </li>
+                    <li class="container-box__item">
+                      <i class="fa-solid fa-link"></i>
+                      <a class="container-box__content container-box__content-link planWebsite">CatWs - Thuê thiết kế Website theo mẫu</a>
+                    </li>
+                  </ul>
+                </section>
+
               </div>
             </div>
             <div class="col l-7 m-12 c-12">
@@ -192,7 +217,7 @@
                       <span class="container-box__project-title profileWebsite"></span>
                       <span class="container-box__project-date profileWebsite"></span>
                       <span class="container-box__project-desc profileWebsite"></span>
-                      <div id="status"></div>
+                      <div id="status" class="status-display--finished"> Finished </div>
                     </li>
                   </ul>
                 </section>
@@ -206,7 +231,7 @@
                       <span class="container-box__project-title learningWebsite"></span>
                       <span class="container-box__project-date learningWebsite"></span>
                       <span class="container-box__project-desc learningWebsite"></span>
-                      <div id="status" class="status-display--pending"> Pending </div>
+                      <div id="status" class="status-display--processing"> Processing </div>
                     </li>
                   </ul>
                 </section>
@@ -224,28 +249,6 @@
                     </li>
                   </ul>
                 </section>
-               <!--  <section class="container-box">
-
-                  <div>
-                    <h2>Danh sách ngôn ngữ</h2>
-                    <ul id="list-languages"></ul>
-                  </div>
-
-                  <div>
-                    <div>
-                      <label>Name</label>
-                      <input autocomplete="off" type="text" name="name">
-                    </div>
-                    <div>
-                      <label>Description</label>
-                      <input autocomplete="off" type="text" name="description">
-                    </div>
-                    <div>
-                      <button id="create">Create</button>
-                    </div>
-                  </div>
-
-                </section> -->
                 <section class="container-box container-box--demo" contenteditable="true"></section>
               </div>
             </div>

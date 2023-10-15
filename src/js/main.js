@@ -1,5 +1,6 @@
 const introduction = document.querySelectorAll('.introduction')
 const aboutMe = document.querySelectorAll('.aboutMe')
+const planWebsite = document.querySelectorAll('.planWebsite')
 const skillPercent = document.querySelectorAll('.skillPercent')
 const skillText = document.querySelectorAll('.container-box__process-text')
 const learningWebsite = document.querySelectorAll('.learningWebsite')
@@ -31,7 +32,15 @@ const myAboutMe = {
   textOne: 'Hello, I\'m Katarii - Newbie Developer. I\'ve only been learning coding for 3 months and this is my first product. I am skilled in some programming languages and technologies, always eager to learn and adapt to new advancements. So it still has a lot of error, so please feel free to comment.',
   textTwo: 'I use Instagram and Messenger every day to communicate and work so you can always interact with me through them. And I hope we can become good friends through this product.',
   texThree: 'Viet Nam',
-  textFour: 'Copyright ® Katarii'
+  textFour: 'Copyright ® Katarii',
+  textFive: 'Dating'
+}
+
+const myPlanWebsite = {
+  katarii: '#',
+  devdocs: 'http://dev-docs-katariidev.vercel.app',
+  catws: 'Bạn Không Có Quyền Xem Trước !!!!!'
+  // http://dev-docs-katariidev.vercel.app/
 }
 
 // Biến tiến độ
@@ -56,22 +65,22 @@ const mySkillPercent = {
 }
 
 const myProfileWebsite = {
-  title: 'Katarii | Website',
-  date: '20/07/2023',
+  title: 'Project: Katarii | Website',
+  date: 'Date: 11/08/2023',
   desc: 'Website công bố thông tin cá nhân và các dự án mới trong tương lai,...',
   status: 'finished'
 }
 
 const myLearningWebsite = {
-  title: 'DevDocs',
-  date: '20/07/2023',
+  title: 'Project: DevDocs',
+  date: 'Date: 20/07/2023',
   desc: 'Website tra cứu tài liệu lập trình, phát triển công nghệ trí tuệ nhân tạo và nhiều nhiều mới mẻ khác,...',
   status: 'pending'
 }
 
 const myHiringWebsite = {
-  title: 'CatWs',
-  date: '20/07/2023',
+  title: 'Project: CatWs',
+  date: 'Date: 02/08/2023',
   desc: 'Website thuê thiết kế Website cho sinh viên, doanh nghiệp,...',
   status: 'pending'
 }
@@ -81,6 +90,7 @@ demoBox.innerHTML =
 
 // Khu vực thuật toán (không chỉnh sửa)
 const introductionValues = Object.values(myIntroductionSocial)
+const planWebsiteValues = Object.values(myPlanWebsite)
 const skillPercentValues = Object.values(mySkillPercent)
 const learningWebsiteValues = Object.values(myLearningWebsite)
 const hiringWebsiteValues = Object.values(myHiringWebsite)
@@ -112,6 +122,16 @@ for (let i = 0; i < hiringWebsiteValues.length - 1; i++) {
 for (let i = 0; i < profileWebsiteValues.length - 1; i++) {
   profileWebsite[i].textContent = profileWebsiteValues[i]
 }
+
+for (let i = 0; i < planWebsiteValues.length; i++) {
+  planWebsite[i].href = planWebsiteValues[i]
+  planWebsite[i].target = '_blank'
+}
+
+// const planWebsiteValues = Object.values(myPlanWebsite)
+// for (let i = 0; i < planWebsiteValues.length; i++) {
+//   planWebsite[i].textContent = planWebsiteValues[i]
+// }
 
 displayOfStatus.className = `status-display--${myLearningWebsite['status']}`
 displayOfStatus.textContent = myLearningWebsite['status']

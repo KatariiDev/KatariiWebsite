@@ -595,7 +595,7 @@ body {
 
 .status-display--processing {
   background-color: #fde047;
-  /*color: red !important;*/
+  color: #20627c !important;
 }
 
 .status-display--finished {
